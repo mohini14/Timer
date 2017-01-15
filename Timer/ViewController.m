@@ -52,6 +52,13 @@
     
 }
 
+- (IBAction)resetButton:(id)sender {
+    score=0;
+    count=10;
+    self.scoreLabel.text=[NSString stringWithFormat:@"%d",score];
+    self.timedisplay.text=[NSString stringWithFormat:@"%d",count];
+}
+
 -(void) timerBlock: (NSTimer*) t{
      count=count-1;
     self.timedisplay.text = [NSString stringWithFormat:@"%d", count];

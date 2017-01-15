@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *timedisplay;
 - (IBAction)buttonPressed:(UIButton *)sender;
 
+- (IBAction)resetButton:(id)sender;
 
 @end
 
