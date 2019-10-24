@@ -17,7 +17,7 @@
     int count;
     int score;
 }
-
+//TODO: Add logic to be used and displayed when screen loads
 - (void)viewDidLoad {
     [super viewDidLoad];
     
